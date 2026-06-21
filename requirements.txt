@@ -1,0 +1,12 @@
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.1
+rich>=13.7.0
+
+# Bundled ffmpeg binary so audio -> mp3 conversion needs no system install
+imageio-ffmpeg>=0.5.1
+
+# Optional: only needed for the automated LLM bug-analysis pass (`python main.py analyze`).
+# Calls themselves do NOT need these — the in-call model runs on Vapi's bundled providers.
+openai>=1.40.0
+anthropic>=0.40.0
