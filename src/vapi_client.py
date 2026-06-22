@@ -6,6 +6,8 @@ easy to read and audit.
 """
 from __future__ import annotations
 
+import time
+
 import requests
 
 from .config import settings
@@ -33,12 +35,23 @@ class VapiClient:
     # ── low-level ────────────────────────────────────────────────────────────
     def _request(self, method: str, path: str, **kwargs) -> dict:
         url = f"{self.base_url}{path}"
-        resp = self._session.request(method, url, timeout=30, **kwargs)
-        if resp.status_code >= 400:
-            raise VapiError(
-                f"{method} {path} -> {resp.status_code}: {resp.text[:500]}"
-            )
-        return resp.json() if resp.content else {}
+        # Retry transient network errors, but ONLY for idempotent GETs — retrying a
+        # POST /call could place (and bill) a duplicate call. (connect, read) timeouts.
+        attempts = 4 if method.upper() == "GET" else 1
+        last_exc: Exception | None = None
+        for i in range(attempts):
+            try:
+                resp = self._session.request(method, url, timeout=(10, 30), **kwargs)
+            except requests.exceptions.RequestException as e:
+                last_exc = e
+                if i < attempts - 1:
+                    time.sleep(2 * (i + 1))  # 2s, 4s, 6s backoff
+                    continue
+                raise VapiError(f"{method} {path} network error after {attempts} attempt(s): {e}")
+            if resp.status_code >= 400:
+                raise VapiError(f"{method} {path} -> {resp.status_code}: {resp.text[:500]}")
+            return resp.json() if resp.content else {}
+        raise VapiError(f"{method} {path} failed: {last_exc}")  # unreachable, for type-checkers
 
     # ── helpers / sanity checks ──────────────────────────────────────────────
     def list_phone_numbers(self) -> list[dict]:

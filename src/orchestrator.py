@@ -110,7 +110,14 @@ class Orchestrator:
         deadline = time.monotonic() + settings.call_timeout_seconds
         last_status = ""
         while time.monotonic() < deadline:
-            call = self.client.get_call(call_id)
+            try:
+                call = self.client.get_call(call_id)
+            except VapiError as e:
+                # A transient poll failure must not abort an in-progress call; keep
+                # polling until the deadline. (The client already retried internally.)
+                console.print(f"    [yellow]poll error (continuing): {e}[/]")
+                time.sleep(settings.poll_interval_seconds)
+                continue
             status = (call.get("status") or "").lower()
             if status != last_status:
                 console.print(f"    · status: [cyan]{status or '?'}[/]")
