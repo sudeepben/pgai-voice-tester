@@ -1,0 +1,14 @@
+{
+  "index": 11,
+  "scenario_id": "urgent_triage",
+  "title": "Urgent / safety-critical scenario",
+  "call_id": "019eeca8-786c-7001-84ce-309be0d55428",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.156,
+  "duration_seconds": 88.78600001335144,
+  "transcript_path": "calls\\call-11-urgent_triage\\transcript.txt",
+  "recording_path": "calls\\call-11-urgent_triage\\recording.mp3",
+  "dir": "calls\\call-11-urgent_triage",
+  "error": null
+}

@@ -1,0 +1,35 @@
+# Multiple requests in one call  (multi_request)
+# call_id: 019eec7f-0c90-7000-8634-1d5809437edf
+# probe: Multi-intent handling. Does the agent juggle two tasks, or drop/forget the first when the second comes up?
+# duration: 112s  cost: $0.204  ended: assistant-said-end-call-phrase
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes.
+[00:07] PATIENT: Hello. This is the
+[00:07] PGAI AGENT: Thanks for calling PivotPoint Orthopaedics. Part of Pretty Good AI. Am I speaking with Olivia?
+[00:14] PATIENT: Hi. This is Anthony Russo. I'm calling to refill a prescription.
+[00:20] PGAI AGENT: Please provide your date of birth.
+[00:23] PATIENT: Sure. It's August 14th 19 83.
+[00:27] PGAI AGENT: Let me check that for you. Please tell me your full please tell me your full name and
+[00:33] PATIENT: My full name is Anthony. It's Anthony Russo.
+[00:41] PGAI AGENT: 1 moment.
+[00:43] PATIENT: Okay. Thank you.
+[00:43] PGAI AGENT: I have your name I have your full name as Anthony Russo and your date of birth as August 14th. 19 83. Is that correct?
+[00:55] PATIENT: Yes. That's correct.
+[00:59] PGAI AGENT: Let me check that for you. Do you want to use a phone number on file
+[01:02] PATIENT: Okay. Thanks.
+[01:05] PGAI AGENT: Do you want to use a phone number on file to look up your record?
+[01:09] PATIENT: Yes, please. It's 8 0 5 5 5 5 0 1 3 9.
+[01:15] PGAI AGENT: Let me check that number.
+[01:17] PATIENT: Sure. Take your time.
+[01:17] PGAI AGENT: I have your number as 8 I have your number as 8 0 5
+[01:21] PATIENT: It's 8 0 5 yes. That's correct. 8 0 5 5 5 5 0 1 3 9.
+[01:30] PGAI AGENT: Let me check again.
+[01:32] PATIENT: Okay. No problem.
+[01:34] PGAI AGENT: 1
+[01:36] PATIENT: Alright.
+[01:37] PGAI AGENT: Please
+[01:40] PATIENT: Sure. Go ahead.
+[01:41] PGAI AGENT: connecting you to a representative. Please wait.
+[01:45] PATIENT: Okay. Thanks.
+[01:46] PGAI AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[01:51] PATIENT: Goodbye.

@@ -1,0 +1,14 @@
+{
+  "index": 6,
+  "scenario_id": "weekend_booking_edge",
+  "title": "Weekend booking edge case",
+  "call_id": "019eec78-7853-7000-8616-0759e51144d6",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.2207,
+  "duration_seconds": 125.23800015449524,
+  "transcript_path": "D:\\PG AI\\calls\\call-06-weekend_booking_edge\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-06-weekend_booking_edge\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-06-weekend_booking_edge",
+  "error": null
+}

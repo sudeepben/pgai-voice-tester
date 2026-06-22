@@ -1,0 +1,19 @@
+# Office hours, location & insurance questions  (hours_location_insurance)
+# call_id: 019eec76-c36d-7000-87fd-d15916f9f37c
+# probe: Factual Q&A accuracy and consistency. Watch for hallucinated or contradictory facts (hours/address/insurance).
+# duration: 95s  cost: $0.157  ended: assistant-said-end-call-phrase
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes. Thanks for calling PivotPoint Orthopedics. Part of pretty good day. Am I speaking with Olivia?
+[00:14] PATIENT: Um, no. This is Robert Kim. I was calling to ask a couple of quick questions about your office.
+[00:21] PGAI AGENT: 1 moment. Let me check that for you.
+[00:24] PATIENT: Okay, thanks.
+[00:24] PGAI AGENT: Something's not I'm sorry about that.
+[00:28] PATIENT: Sure. Take your time. No problem. Should I call back later?
+[00:34] PGAI AGENT: You can call back later, but I can still help with general questions right now. If you want, I can keep going.
+[00:41] PATIENT: Alright. That works for me. Could you please tell me your office hours?
+[00:47] PGAI AGENT: Our office hours are Monday and Tuesday from 9 AM to 4 PM, Wednesday from 12 PM to 7 PM, Thursday from 9 AM to 4 PM, and Friday from 9 AM to 12 PM.
+[00:59] PATIENT: Great. Thanks for that. Can you tell me where you're located and if there's parking available?
+[01:06] PGAI AGENT: Ret Pivot Point Orthopedics 1 2 3 4 Recovery Way, suite 200, Austin. Free patient parking is available in the surface lot in front of the building.
+[01:17] PATIENT: Got it. Thanks. And do you accept Blue Cross Blue Shield PPO?
+[01:23] PGAI AGENT: Yes. We accept most insurance plans, including many Blue Cross Blue Shield PPO If you want, I can also help with an insurance question.
+[01:32] PATIENT: Perfect. That's what I needed to know. Thanks for your help. Goodbye.

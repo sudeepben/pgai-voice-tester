@@ -1,0 +1,14 @@
+{
+  "index": 10,
+  "scenario_id": "hard_spelling",
+  "title": "Hard-to-parse name, DOB & numbers",
+  "call_id": "019eeca5-86a0-7000-9bbf-ba289124c597",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.3286,
+  "duration_seconds": 177.34400010108948,
+  "transcript_path": "calls\\call-10-hard_spelling\\transcript.txt",
+  "recording_path": "calls\\call-10-hard_spelling\\recording.mp3",
+  "dir": "calls\\call-10-hard_spelling",
+  "error": null
+}

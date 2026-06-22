@@ -1,0 +1,14 @@
+{
+  "index": 3,
+  "scenario_id": "cancel",
+  "title": "Cancel appointment",
+  "call_id": "019eec72-8b3e-7000-87df-22d9c1fd846c",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.1671,
+  "duration_seconds": 97.51000022888184,
+  "transcript_path": "D:\\PG AI\\calls\\call-03-cancel\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-03-cancel\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-03-cancel",
+  "error": null
+}

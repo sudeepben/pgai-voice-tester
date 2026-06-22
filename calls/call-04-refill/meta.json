@@ -1,0 +1,14 @@
+{
+  "index": 4,
+  "scenario_id": "refill",
+  "title": "Medication refill request",
+  "call_id": "019eec74-5060-7000-887f-f5ad3e134242",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.2579,
+  "duration_seconds": 142.4339997768402,
+  "transcript_path": "D:\\PG AI\\calls\\call-04-refill\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-04-refill\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-04-refill",
+  "error": null
+}

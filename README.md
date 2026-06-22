@@ -64,8 +64,11 @@ Make a test account at **pgai.us/athena** to understand the product you're testi
 ```bash
 python main.py check          # validate config + Vapi auth — costs nothing
 python main.py call           # place ALL 12 scenarios (>=10 calls), with a confirm prompt
-python main.py analyze        # LLM-review the transcripts -> BUG_REPORT.md
+python main.py analyze        # LLM-review the transcripts -> BUG_REPORT_DRAFT.md
 ```
+
+> `analyze` writes a raw auto-draft to `BUG_REPORT_DRAFT.md`. The curated,
+> human-reviewed `BUG_REPORT.md` is the actual deliverable and is never overwritten.
 
 Or end-to-end after `.env` is filled in:
 ```bash
@@ -130,7 +133,7 @@ src/vapi_client.py      thin Vapi REST client; builds the inline assistant
 src/orchestrator.py     places calls, enforces the cap, saves artifacts
 src/media.py            download recording -> mp3 (bundled ffmpeg)
 src/transcripts.py      both-sides transcript from the Vapi call object
-src/analyzer.py         LLM review of transcripts -> BUG_REPORT.md
+src/analyzer.py         LLM review of transcripts -> BUG_REPORT_DRAFT.md
 ```
 
 ## Notes

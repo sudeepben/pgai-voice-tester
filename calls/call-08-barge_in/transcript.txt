@@ -1,0 +1,23 @@
+# Interruptions & changing your mind  (barge_in)
+# call_id: 019eec7c-f638-755a-bc86-cf28865205c3
+# probe: Barge-in / interruption robustness and context tracking when you change details. (Intentional interruption test.)
+# duration: 124s  cost: $0.181  ended: customer-ended-call
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes.
+[00:07] PATIENT: Pause.
+[00:07] PGAI AGENT: Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. Am I speaking with Olivia?
+[00:14] PATIENT: Uh, no. My name is Grace Liu.
+[00:20] PGAI AGENT: Please tell me your date of birth.
+[00:23] PATIENT: Sure. It's December 2nd 19 95.
+[00:29] PGAI AGENT: I have your name as Grace Liu, and your date of birth as December 2nd 19 95. Please spell your 1st and last name for me.
+[00:39] PATIENT: G r a c e l I u.
+[00:45] PGAI AGENT: You want to use a phone number on file to look up your record? If so, give me the number you have on file.
+[00:51] PATIENT: Yeah. It's 8 0 5 5 5 5 0 1 7 3.
+[00:58] PGAI AGENT: Please spell your full name and date of birth 1 more time.
+[01:02] PATIENT: Grace Liu, g r a c e l I u. Date of birth is December 2nd 19 95.
+[01:13] PGAI AGENT: I have your number as 8 0 5 5 5 5 0 1 7 3. And your date of birth is December 2nd 19 95. Is that correct?
+[01:23] PATIENT: Yes. That's correct.
+[01:29] PGAI AGENT: Connecting you to a representative. Please wait.
+[01:34] PATIENT: Okay. Thank you.
+[01:34] PGAI AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[01:39] PATIENT: Hello. Um, I'd like to book an appointment, please.

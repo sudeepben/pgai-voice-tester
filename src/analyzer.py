@@ -163,7 +163,9 @@ def analyze_all() -> Path:
         tally[b.get("severity", "Low")] = tally.get(b.get("severity", "Low"), 0) + 1
 
     header = [
-        "# Bug Report — PGAI Voice Agent",
+        "# Bug Report (raw auto-draft) — PGAI Voice Agent",
+        "",
+        "_Unfiltered machine pass. The curated, de-duplicated deliverable is `BUG_REPORT.md`._",
         "",
         f"Generated from {len(transcripts)} call transcript(s) in `calls/`.",
         "",
@@ -183,7 +185,9 @@ def analyze_all() -> Path:
     header += ["", "---", ""]
 
     out = "\n".join(header) + "\n".join(sections) + "\n"
-    report_path = PROJECT_ROOT / "BUG_REPORT.md"
+    # Write the raw, unfiltered pass to a *draft* file so it never clobbers the
+    # hand-curated BUG_REPORT.md (the actual deliverable).
+    report_path = PROJECT_ROOT / "BUG_REPORT_DRAFT.md"
     report_path.write_text(out, encoding="utf-8")
 
     # Also drop the raw findings as JSON for downstream tooling.

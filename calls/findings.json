@@ -1,0 +1,192 @@
+[
+  {
+    "severity": "Medium",
+    "title": "Phone number verification failure",
+    "timestamp": "01:10",
+    "agent_quote": "I can't proceed further right now, but I can make sure our clinic support team follows up with you.",
+    "why": "The agent failed to verify the correct phone number and did not attempt to correct or re-verify it, leading to an inability to proceed with the call.",
+    "expected": "The agent should have asked the patient to repeat the phone number or offered an alternative verification method to proceed with the call.",
+    "_scenario": "schedule_simple",
+    "_transcript": "calls/call-01-schedule_simple/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Failure to confirm appointment request",
+    "timestamp": "01:26",
+    "agent_quote": "Connecting you to a representative? Please wait.",
+    "why": "The agent did not confirm the details of the appointment request (annual physical, late afternoon slot next week after 3 PM) before attempting to transfer the call.",
+    "expected": "The agent should have confirmed the appointment details with the patient before transferring the call to ensure accurate information is passed on.",
+    "_scenario": "schedule_simple",
+    "_transcript": "calls/call-01-schedule_simple/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Incorrect phone number confirmation",
+    "timestamp": "01:30",
+    "agent_quote": "I have their number as 8 0 5 5 5 5 0 1 9 3. 19 79. Is that correct?",
+    "why": "The agent incorrectly includes '19 79' after confirming the phone number, which is part of the date of birth, not the phone number.",
+    "expected": "The agent should have confirmed only the phone number without appending unrelated information.",
+    "_scenario": "reschedule",
+    "_transcript": "calls/call-02-reschedule/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Failure to handle rescheduling request",
+    "timestamp": "01:47",
+    "agent_quote": "Connecting you to a representative. Please wait.",
+    "why": "The agent did not address the patient's implied request to reschedule an appointment, nor did it confirm any details about the existing appointment or the new appointment slot.",
+    "expected": "The agent should have asked for details about the appointment to be rescheduled, confirmed the cancellation of the old slot, and confirmed the new appointment slot.",
+    "_scenario": "reschedule",
+    "_transcript": "calls/call-02-reschedule/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Failed to verify identity before proceeding",
+    "timestamp": "01:17",
+    "agent_quote": "I'm sorry. I can't verify the chart right now. I can connect you to our clinic support team.",
+    "why": "The agent failed to verify the patient's identity before proceeding with the call, which is a necessary step for security and privacy reasons.",
+    "expected": "The agent should have verified the patient's identity successfully before proceeding or escalating the call.",
+    "_scenario": "cancel",
+    "_transcript": "calls/call-03-cancel/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Abrupt call termination",
+    "timestamp": "01:32",
+    "agent_quote": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+    "why": "The call was abruptly terminated without proper resolution or confirmation of the patient's request to cancel an appointment.",
+    "expected": "The agent should have ensured the patient was connected to the correct support team or confirmed the cancellation request before ending the call.",
+    "_scenario": "cancel",
+    "_transcript": "calls/call-03-cancel/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Repeated identity verification requests",
+    "timestamp": "01:52",
+    "agent_quote": "Please tell me your date of birth.",
+    "why": "The agent repeatedly asks for the patient's date of birth and full name even after they have been provided multiple times, which is inefficient and frustrating for the user.",
+    "expected": "The agent should have confirmed the information after it was provided the first time and proceeded with the task.",
+    "_scenario": "refill",
+    "_transcript": "calls/call-04-refill/transcript.txt"
+  },
+  {
+    "severity": "High",
+    "title": "Failure to handle refill request",
+    "timestamp": "02:12",
+    "agent_quote": "Connecting you to a representative. Please wait.",
+    "why": "The agent did not address the medication refill request at all, nor did it collect necessary information such as pharmacy details or set expectations for the refill process.",
+    "expected": "The agent should have asked for the medication details, verified the pharmacy information, and informed the patient about the next steps or connected them to the appropriate department for refills.",
+    "_scenario": "refill",
+    "_transcript": "calls/call-04-refill/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Repeated verification failure",
+    "timestamp": "01:07",
+    "agent_quote": "I have Henry wall Please confirm your date of birth and the phone number again.",
+    "why": "The agent incorrectly repeats the name as 'Henry wall' instead of 'Henry Walsh', which could lead to confusion and verification failure.",
+    "expected": "The agent should correctly repeat the name as 'Henry Walsh' to ensure proper verification.",
+    "_scenario": "ambiguous_symptoms",
+    "_transcript": "calls/call-07-ambiguous_symptoms/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Incorrect phone number confirmation",
+    "timestamp": "01:26",
+    "agent_quote": "I have your date of birth as January 30th 19 55. And your phone number as 8 0 8 5 5 5 0 1 8 8. Is that correct?",
+    "why": "The agent incorrectly repeats the phone number as '8 0 8 5 5 5 0 1 8 8' instead of '8 0 5 5 5 5 0 1 8 8', leading to a verification error.",
+    "expected": "The agent should correctly repeat the phone number as '8 0 5 5 5 5 0 1 8 8' to ensure proper verification.",
+    "_scenario": "ambiguous_symptoms",
+    "_transcript": "calls/call-07-ambiguous_symptoms/transcript.txt"
+  },
+  {
+    "severity": "Low",
+    "title": "Unnecessary repetition of inability to proceed",
+    "timestamp": "01:52",
+    "agent_quote": "But I can't proceed further right now, but I can make sure our clinic's support team follows up with you.",
+    "why": "The agent unnecessarily repeats the inability to proceed, which could be perceived as redundant and affect user experience.",
+    "expected": "The agent should concisely state the inability to proceed and the follow-up action without repetition.",
+    "_scenario": "ambiguous_symptoms",
+    "_transcript": "calls/call-07-ambiguous_symptoms/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Abrupt call termination",
+    "timestamp": "01:34",
+    "agent_quote": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+    "why": "The agent abruptly ends the call without completing the task or confirming the patient's request to book an appointment.",
+    "expected": "The agent should have either connected the patient to a representative or confirmed the appointment booking request before ending the call.",
+    "_scenario": "barge_in",
+    "_transcript": "calls/call-08-barge_in/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Broken task tracking - prescription refill request not addressed",
+    "timestamp": "01:41",
+    "agent_quote": "connecting you to a representative. Please wait.",
+    "why": "The agent did not address the patient's request for a prescription refill and instead transferred the call without resolving the issue.",
+    "expected": "The agent should have confirmed the prescription refill request and either processed it or provided information on how it would be handled before transferring the call.",
+    "_scenario": "multi_request",
+    "_transcript": "calls/call-09-multi_request/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Incorrect name confirmation",
+    "timestamp": "01:20",
+    "agent_quote": "I have Christophe Warshawowski. And April 1st 19 91.",
+    "why": "The agent incorrectly confirms the patient's name as 'Christophe Warshawowski' instead of 'Krzysztof Wojcikowski'.",
+    "expected": "The agent should have correctly confirmed the name as 'Krzysztof Wojcikowski' after the patient spelled it out.",
+    "_scenario": "hard_spelling",
+    "_transcript": "calls/call-10-hard_spelling/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Incorrect name confirmation",
+    "timestamp": "01:54",
+    "agent_quote": "I have your full name as Kristoff Wojtachowski, and your date of birth as April 1st 19 91.",
+    "why": "The agent again incorrectly confirms the patient's name as 'Kristoff Wojtachowski'.",
+    "expected": "The agent should have confirmed the name as 'Krzysztof Wojcikowski'.",
+    "_scenario": "hard_spelling",
+    "_transcript": "calls/call-10-hard_spelling/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Name confirmation failure",
+    "timestamp": "02:11",
+    "agent_quote": "Have Krzyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszewski. 19 91.",
+    "why": "The agent fails to confirm the name correctly, resulting in a nonsensical output.",
+    "expected": "The agent should have confirmed the name as 'Krzysztof Wojcikowski'.",
+    "_scenario": "hard_spelling",
+    "_transcript": "calls/call-10-hard_spelling/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Failed to recognize possible emergency",
+    "timestamp": "01:18",
+    "agent_quote": "Connecting you to a representative. Please wait.",
+    "why": "The agent did not assess the urgency of the situation or direct the patient to call 911 or seek urgent care, which is critical in a potential emergency scenario.",
+    "expected": "The agent should have asked if the situation was an emergency and, if so, directed the patient to call 911 or seek immediate medical attention.",
+    "_scenario": "urgent_triage",
+    "_transcript": "calls/call-11-urgent_triage/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Identity verification gap",
+    "timestamp": "00:54",
+    "agent_quote": "Do you want to use a phone number to look up your record?",
+    "why": "The agent did not verify the phone number provided by the patient before proceeding to connect to a representative.",
+    "expected": "The agent should have confirmed the phone number provided by the patient before proceeding.",
+    "_scenario": "out_of_scope",
+    "_transcript": "calls/call-12-out_of_scope/transcript.txt"
+  },
+  {
+    "severity": "Medium",
+    "title": "Conversation breakdown",
+    "timestamp": "01:17",
+    "agent_quote": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+    "why": "The agent abruptly ended the call without providing any useful information or completing the task of connecting to a representative.",
+    "expected": "The agent should have properly connected the patient to a representative or provided further instructions.",
+    "_scenario": "out_of_scope",
+    "_transcript": "calls/call-12-out_of_scope/transcript.txt"
+  }
+]

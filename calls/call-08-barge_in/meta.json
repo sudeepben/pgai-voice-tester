@@ -1,0 +1,14 @@
+{
+  "index": 8,
+  "scenario_id": "barge_in",
+  "title": "Interruptions & changing your mind",
+  "call_id": "019eec7c-f638-755a-bc86-cf28865205c3",
+  "status": "ended",
+  "ended_reason": "customer-ended-call",
+  "cost_usd": 0.1808,
+  "duration_seconds": 123.77300000190735,
+  "transcript_path": "D:\\PG AI\\calls\\call-08-barge_in\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-08-barge_in\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-08-barge_in",
+  "error": null
+}

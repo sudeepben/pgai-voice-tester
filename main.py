@@ -7,7 +7,7 @@ Commands
   python main.py call                  Run ALL scenarios once (>=10 calls).
   python main.py call <id> [<id> ...]  Run only the named scenario(s).
   python main.py call --repeat 2       Run the selected set N times.
-  python main.py analyze               LLM-review saved transcripts -> BUG_REPORT.md.
+  python main.py analyze               LLM-review saved transcripts -> BUG_REPORT_DRAFT.md.
 
 A typical full run after `.env` is filled in:
 
@@ -125,7 +125,7 @@ def build_parser() -> argparse.ArgumentParser:
     c.add_argument("-y", "--yes", action="store_true", help="Skip the confirmation prompt.")
     c.set_defaults(func=cmd_call)
 
-    sub.add_parser("analyze", help="LLM-review transcripts -> BUG_REPORT.md.").set_defaults(func=cmd_analyze)
+    sub.add_parser("analyze", help="LLM-review transcripts -> BUG_REPORT_DRAFT.md.").set_defaults(func=cmd_analyze)
     return p
 
 

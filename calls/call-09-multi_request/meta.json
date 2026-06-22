@@ -1,0 +1,14 @@
+{
+  "index": 9,
+  "scenario_id": "multi_request",
+  "title": "Multiple requests in one call",
+  "call_id": "019eec7f-0c90-7000-8634-1d5809437edf",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.2039,
+  "duration_seconds": 111.89699983596802,
+  "transcript_path": "D:\\PG AI\\calls\\call-09-multi_request\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-09-multi_request\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-09-multi_request",
+  "error": null
+}

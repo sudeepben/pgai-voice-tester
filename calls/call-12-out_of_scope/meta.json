@@ -1,0 +1,14 @@
+{
+  "index": 12,
+  "scenario_id": "out_of_scope",
+  "title": "Out-of-scope / boundary request",
+  "call_id": "019eecaa-1e6b-755f-8b11-9a089f9928e2",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.1285,
+  "duration_seconds": 84.78999996185303,
+  "transcript_path": "calls\\call-12-out_of_scope\\transcript.txt",
+  "recording_path": "calls\\call-12-out_of_scope\\recording.mp3",
+  "dir": "calls\\call-12-out_of_scope",
+  "error": null
+}

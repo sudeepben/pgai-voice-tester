@@ -1,0 +1,31 @@
+# Hard-to-parse name, DOB & numbers  (hard_spelling)
+# call_id: 019eeca5-86a0-7000-9bbf-ba289124c597
+# probe: STT robustness + does the agent read back / confirm spelled details correctly rather than guessing?
+# duration: 177s  cost: $0.329  ended: assistant-said-end-call-phrase
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes. Thanks for calling PivotPoint Orthopaedics.
+[00:07] PATIENT: Wait.
+[00:09] PGAI AGENT: Part of Pretty Good AI. Am I speaking with Olivia?
+[00:13] PATIENT: Hi. No. This is Krzysztof Wojcikowski calling.
+[00:20] PGAI AGENT: X. How can I help today? How can I help today?
+[00:23] PATIENT: I'd like to book an appointment, please.
+[00:28] PGAI AGENT: Please provide your date of birth.
+[00:31] PATIENT: Sure. It's April 1st 19 91. 0 4 0 1 91.
+[00:39] PGAI AGENT: Please provide your full name. 1st and last and your date of birth.
+[00:44] PATIENT: My full name is Krzysztof Wojcihowski. K r zed y a s z t o f, last name, w o j c I e c h o w s k I. And my date of birth is April 1st 19 81.
+[01:02] PGAI AGENT: I heard the last name is Vorcichowski, and the date of birth is April 1st 19 91. I need the 1st name spelled out clearly, please.
+[01:12] PATIENT: Sure. Uh, 1st name is k r z y s z t o f.
+[01:20] PGAI AGENT: I have Christophe Warshawowski. And April 1st 19 91. Do you want to use a phone number to look up your record?
+[01:30] PATIENT: Oh, it's Krzysztof Wojcikowski. And my phone number is 8 0 5 5 5 5 0 1 0 8. Could you read that back to me?
+[01:41] PGAI AGENT: I have your number as 8 0 5 5 5 5 0 1 0 8. Is that correct?
+[01:49] PATIENT: Yes. That's correct. Thank you.
+[01:54] PGAI AGENT: I have your full name as Kristoff Wojtachowski, and your date of birth as April 1st 19 91.
+[02:02] PATIENT: Almost, but it's actually Krushto Vojcicowski. Could you read that back to me once more?
+[02:11] PGAI AGENT: Have Krzyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszyszewski. 19 91.
+[02:16] PATIENT: It's Krzyszysztof Wojcikowski. Sorry for the confusion. Would it be possible to schedule an appointment now?
+[02:27] PGAI AGENT: I have your number as 8 0 5 5 5 5 0 1 0 8. And your date of birth is April 1st 19 91. Please confirm those are correct.
+[02:38] PATIENT: Yes. Those are correct. Thank you.
+[02:46] PGAI AGENT: Connecting you to a representative. Please wait.
+[02:48] PATIENT: Alright. Thank you. Okay. Thank you.
+[02:51] PGAI AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[02:56] PATIENT: Goodbye.

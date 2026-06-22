@@ -81,9 +81,11 @@ class VapiClient:
             # End the call when our patient says goodbye.
             "endCallPhrases": ["goodbye", "bye bye", "have a good day, bye"],
             # Ensure recording is on (it is by default, but be explicit).
+            # Record straight to mp3 — it's a required deliverable format and
+            # skips a transcode step. (Valid values: "wav;l16", "mp3".)
             "artifactPlan": {
                 "recordingEnabled": True,
-                "recordingFormat": "wav",
+                "recordingFormat": "mp3",
                 "transcriptPlan": {"enabled": True},
             },
         }

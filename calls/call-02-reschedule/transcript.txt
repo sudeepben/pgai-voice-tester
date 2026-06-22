@@ -1,0 +1,29 @@
+# Reschedule existing appointment  (reschedule)
+# call_id: 019eec70-767a-7001-8418-3109f213f04a
+# probe: Does the agent handle changes to existing bookings? Does it confirm the old slot is freed and a new one set?
+# duration: 118s  cost: $0.197  ended: assistant-said-end-call-phrase
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes.
+[00:07] PATIENT: Okay.
+[00:07] PGAI AGENT: Thanks for calling Pivot Point Orthopedics.
+[00:08] PATIENT: So
+[00:09] PGAI AGENT: Part of Pretty Good AI. Am I speaking with Olivia?
+[00:13] PATIENT: No. This is Maria Gonzales.
+[00:20] PGAI AGENT: Please tell me your date of birth.
+[00:22] PATIENT: Sure. It's July 22nd 19 79.
+[00:29] PGAI AGENT: I have your name as Maria Gonzales? And your date of birth as July 22nd 19 79. Is that correct?
+[00:37] PATIENT: Yes. That's correct.
+[00:43] PGAI AGENT: Do you want to use a phone number on the record, or would you rather I confirm your name and date of birth once more?
+[00:50] PATIENT: You can use the phone number on record.
+[00:54] PGAI AGENT: Please tell me the phone number you have on file.
+[00:57] PATIENT: Sure. It's out of 5 on a 3.
+[01:02] PGAI AGENT: I did not catch that clearly. Please give me the full phone number on file.
+[01:07] PATIENT: Oh, sorry about that. It's 8 0 5 5 1 9 3.
+[01:15] PGAI AGENT: I have that as 8 0 5 5 0 9 3. Is that the full phone number on file?
+[01:21] PATIENT: Oh, no. It's 8 0 5 5 5 5 0 1 9 3. Sorry about that.
+[01:30] PGAI AGENT: I have their number as 8 0 5 5 5 5 0 1 9 3. 19 79. Is that correct?
+[01:40] PATIENT: Yes. That's correct.
+[01:47] PGAI AGENT: Connecting you to a representative. Please wait.
+[01:51] PATIENT: Okay. Thank you.
+[01:52] PGAI AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[01:58] PATIENT: Goodbye.

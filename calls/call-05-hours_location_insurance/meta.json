@@ -1,0 +1,14 @@
+{
+  "index": 5,
+  "scenario_id": "hours_location_insurance",
+  "title": "Office hours, location & insurance questions",
+  "call_id": "019eec76-c36d-7000-87fd-d15916f9f37c",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.157,
+  "duration_seconds": 95.4539999961853,
+  "transcript_path": "D:\\PG AI\\calls\\call-05-hours_location_insurance\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-05-hours_location_insurance\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-05-hours_location_insurance",
+  "error": null
+}

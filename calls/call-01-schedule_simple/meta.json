@@ -1,0 +1,14 @@
+{
+  "index": 1,
+  "scenario_id": "schedule_simple",
+  "title": "Simple new appointment",
+  "call_id": "019eec6e-c232-7001-8411-ec4dc29fb956",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.1735,
+  "duration_seconds": 96.94400000572205,
+  "transcript_path": "D:\\PG AI\\calls\\call-01-schedule_simple\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-01-schedule_simple\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-01-schedule_simple",
+  "error": null
+}

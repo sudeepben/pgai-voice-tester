@@ -1,0 +1,23 @@
+# Simple new appointment  (schedule_simple)
+# call_id: 019eec6e-c232-7001-8411-ec4dc29fb956
+# probe: Baseline: does scheduling work end-to-end? Does the agent confirm a concrete date/time and collect needed info?
+# duration: 97s  cost: $0.173  ended: assistant-said-end-call-phrase
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes.
+[00:07] PATIENT: Wait for the
+[00:07] PGAI AGENT: Thanks for calling PivotPoint Orthopedics. Part of Pretty Good AI. Am I speaking with Olivia?
+[00:14] PATIENT: Hi. No. This is Daniel Carter.
+[00:19] PGAI AGENT: Please tell me your date of birth.
+[00:21] PATIENT: Sure. It's March 4th 19 86.
+[00:28] PGAI AGENT: I heard Daniel Carter born March 4th 19 86. Please spell your 1st and last name for me.
+[00:35] PATIENT: Sure. 1st name is d a n I e l. Last name, c a r t e r.
+[00:43] PGAI AGENT: You want to use a phone number on file to look up your record?
+[00:47] PATIENT: Yes, please. It's 8 0 5 5 5 5 0 1 4 2.
+[00:57] PGAI AGENT: I have the number as 8 0 5 5 5 5 0 1 4. Is that correct?
+[01:02] PATIENT: Almost. It's 8 0 5 5 5 5 0 1 4 2.
+[01:10] PGAI AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you.
+[01:16] PATIENT: Okay. Can I book an annual physical? I'm looking for a late afternoon slot next week. After 3 PM.
+[01:26] PGAI AGENT: Connecting you to a representative? Please wait.
+[01:31] PATIENT: Okay. Thank you.
+[01:31] PGAI AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[01:36] PATIENT: Goodbye.

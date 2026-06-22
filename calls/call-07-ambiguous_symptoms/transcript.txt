@@ -1,0 +1,35 @@
+# Ambiguous / unclear request  (ambiguous_symptoms)
+# call_id: 019eec7a-a863-7001-843b-0d19d79a9d07
+# probe: Ambiguity handling. Does the agent ask clarifying questions and triage, or flail / make assumptions / give inappropriate medical advice?
+# duration: 134s  cost: $0.230  ended: assistant-said-end-call-phrase
+
+[00:01] PGAI AGENT: This call may be recorded for quality and training purposes.
+[00:07] PATIENT: Waits for
+[00:07] PGAI AGENT: Thanks for calling PivotPoint Orthopedics. Part of Pretty Good AI. Am I speaking with Olivia?
+[00:15] PATIENT: no. This is his Henry Walsh.
+[00:20] PGAI AGENT: Please tell me the patient's full name and date of birth.
+[00:24] PATIENT: Sure. It's Henry Walsh. And my date of birth is January 30th 19 55.
+[00:31] PGAI AGENT: Let me check that.
+[00:33] PATIENT: Okay. Thank you.
+[00:33] PGAI AGENT: I have Henry Walsh.
+[00:36] PATIENT: That's right.
+[00:39] PGAI AGENT: 1 moment. Do you want to use a phone
+[00:41] PATIENT: Okay.
+[00:43] PGAI AGENT: please tell me the phone number you have on file with us.
+[00:47] PATIENT: Sure. It's 8 0 5 5 5 5 0 1 8 8.
+[00:54] PGAI AGENT: I have your number as 8 0 5 5 5 5 0 1 8 8. Is that correct?
+[01:01] PATIENT: Yes. That's correct.
+[01:05] PGAI AGENT: Let me check that now.
+[01:07] PATIENT: Alright.
+[01:07] PGAI AGENT: I have Henry wall Please confirm your date of birth and the phone number again.
+[01:15] PATIENT: Sure. My date of birth is January 30th 19 55. And my phone number is 8 0 8 5 5 5 5 0 1 8 8.
+[01:26] PGAI AGENT: I have your date of birth as January 30th 19 55. And your phone number as 8 0 8 5 5 5 0 1 8 8. Is that correct?
+[01:38] PATIENT: The phone number should be 8 0 5 5 5 5 0 1 8 8.
+[01:45] PGAI AGENT: 1 moment. I can't proceed further
+[01:47] PATIENT: Okay.
+[01:50] PGAI AGENT: I can't proceed further right now.
+[01:51] PATIENT: Oh,
+[01:52] PGAI AGENT: But I can't proceed further right now, but I can make sure our clinic's support team follows up with you.
+[02:00] PATIENT: Alright. That sounds good. Thank you.
+[02:04] PGAI AGENT: I can make sure our client support team follows up with you as soon as they can.
+[02:10] PATIENT: Okay. I appreciate that. Thank you so much. Goodbye.

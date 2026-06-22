@@ -1,0 +1,14 @@
+{
+  "index": 2,
+  "scenario_id": "reschedule",
+  "title": "Reschedule existing appointment",
+  "call_id": "019eec70-767a-7001-8418-3109f213f04a",
+  "status": "ended",
+  "ended_reason": "assistant-said-end-call-phrase",
+  "cost_usd": 0.1968,
+  "duration_seconds": 118.25,
+  "transcript_path": "D:\\PG AI\\calls\\call-02-reschedule\\transcript.txt",
+  "recording_path": "D:\\PG AI\\calls\\call-02-reschedule\\recording.mp3",
+  "dir": "D:\\PG AI\\calls\\call-02-reschedule",
+  "error": null
+}
